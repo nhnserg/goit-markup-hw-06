@@ -1,0 +1,483 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta name="description" content="Опис Вмісту" /> -->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0" />
+  <title>Web Studio</title>
+  <link rel="preconnect"
+    href="https://fonts.googleapis.com" />
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+  <link rel="stylesheet"
+    href="./css/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navigation">
+        <a class="logo"
+          href="./index.html">
+          Web<span class="decor-dark">Studio</span>
+        </a>
+        <ul class="list menu">
+          <li class="item">
+            <a class="link"
+              href="./index.html">Studio</a>
+          </li>
+          <li class="item">
+            <a class="link active"
+              href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="item"><a class="link"
+              href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="address menu">
+        <ul class="list">
+          <li class="item">
+            <a class="link"
+              href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="link"
+              href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
+      <button class="button-menu menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="menu-mobile">
+        <svg class="icon"
+          width="24"
+          height="24">
+          <use href="./images/icons.svg#icon-hamburger"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="menu-container js-menu-container"
+      id="menu-mobile">
+      <button type="button"
+        class="button-close menu-toggle js-close-menu"
+        aria-expanded="false"
+        aria-controls="menu-mobile">
+        <svg class="icon"
+          width="8"
+          height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="menu-block">
+        <ul class="list menu-mobile">
+          <li class="item">
+            <a class="link active"
+              href="./index.html">Studio</a>
+          </li>
+          <li class="item">
+            <a class="link"
+              href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="item"><a class="link"
+              href="">Contacts</a></li>
+        </ul>
+        <address class="address">
+          <ul class="list">
+            <li class="item">
+              <a class="link"
+                href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li class="item">
+              <a class="link"
+                href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+        </address>
+        <ul class="list social-list">
+          <li class="item">
+            <a href=""
+              class="link">
+              <svg class="icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <svg class="icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <svg class="icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <svg class="icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="portfolio">
+      <div class="container">
+        <h1 hidden>Portfolio</h1>
+        <ul class="list portfolio-buttons-list">
+          <li class="item">
+            <button class="button"
+              type="button">All</button>
+          </li>
+          <li class="item">
+            <button class="button"
+              type="button">Web Site</button>
+          </li>
+          <li class="item">
+            <button class="button"
+              type="button">App</button>
+          </li>
+          <li class="item">
+            <button class="button"
+              type="button">Design</button>
+          </li>
+          <li class="item">
+            <button class="button"
+              type="button">Marketing</button>
+          </li>
+        </ul>
+        <ul class="list portfolio-list">
+          <li class="item">
+            <a href=""
+              class="link">
+              <div class="img-container">
+                <img
+                  srcsrc="./images/portfolio/img.jpg 1x, 
+                  /images/portfolio/img-2x.jpg 2x"
+                  src="./images/portfolio/img.jpg"
+                  alt="Mark Guerrero"
+                  width="360"
+                  height="300" />
+                <p class="img-description">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
+              <div class="project">
+                <h2 class="title-two">Banking App Interface Concept</h2>
+                <p class="text">App</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <div class="img-container">
+                <img srcset="
+                      ./images/portfolio/img-2x.jpg    1x,
+                      ./images/portfolio/img-2x2.jpg 2x
+                    "
+                  src="./images/portfolio/img-2.jpg"
+                  alt="Tom Ford"
+                  width="360"
+                  height="300" />
+                <p class="img-description">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
+              <div class="project">
+                <h2 class="title-two">Cashless Payment</h2>
+                <p class="text">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <div class="img-container">
+                <img srcset="
+                      ./images/portfolio/img-3.jpg    1x,
+                      ./images/portfolio/img-3x2.jpg 2x
+                    "
+                  src="./images/portfolio/img-3.jpg"
+                  alt="Camila Garcia"
+                  width="360"
+                  height="300" />
+                <p class="img-description">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
+              <div class="project">
+                <h2 class="title-two">Meditation App</h2>
+                <p class="text">App</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="item">
+            <a href=""
+              class="link">
+              <div class="img-container">
+                <img srcset="
+                      ./images/portfolio/img-4.jpg    1x,
+                      ./images/portfolio/img-4x2.jpg 2x
+                    "
+                  src="./images/portfolio/img-4.jpg"
+                  alt="Mark Guerrero"
+                  width="360"
+                  height="300" />
+                <p class="img-description">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
+              <div class="project">
+                <h2 class="title-two">Taxi Service</h2>
+                <p class="text">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <div class="img-container">
+                <img srcset="
+                      ./images/portfolio/img-5.jpg    1x,
+                      ./images/portfolio/img-5x2.jpg 2x
+                    "
+                  src="./images/portfolio/img-5.jpg"
+                  alt="Tom Ford"
+                  width="360"
+                  height="300" />
+                <p class="img-description">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
+              <div class="project">
+                <h2 class="title-two">Screen Illustrations</h2>
+                <p class="text">Design</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <div class="img-container">
+                <img srcset="
+                      ./images/portfolio/img-6.jpg    1x,
+                      ./images/portfolio/img-6x2.jpg 2x
+                    "
+                  src="./images/portfolio/img-6.jpg"
+                  alt="Camila Garcia"
+                  width="360"
+                  height="300" />
+                <p class="img-description">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
+              <div class="project">
+                <h2 class="title-two">Online Courses</h2>
+                <p class="text">Marketing</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="item">
+            <a href=""
+              class="link">
+              <div class="img-container">
+                <img srcset="
+                      ./images/portfolio/img-7.jpg    1x,
+                      ./images/portfolio/img-7x2.jpg 2x
+                    "
+                  src="./images/portfolio/img-7.jpg"
+                  alt="Mark Guerrero"
+                  width="360"
+                  height="300" />
+                <p class="img-description">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
+              <div class="project">
+                <h2 class="title-two">Instagram Stories Concept</h2>
+                <p class="text">Design</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <div class="img-container">
+                <img srcset="
+                      ./images/portfolio/img-8.jpg    1x,
+                      ./images/portfolio/img-8x2.jpg 2x
+                    "
+                  src="./images/portfolio/img-8.jpg"
+                  alt="Tom Ford"
+                  width="360"
+                  height="300" />
+                <p class="img-description">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
+              <div class="project">
+                <h2 class="title-two">Organic Food</h2>
+                <p class="text">Web Site</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <div class="img-container">
+                <img srcset="
+                      ./images/portfolio/img-9.jpg    1x,
+                      ./images/portfolio/img-9x2.jpg 2x
+                    "
+                  src="./images/portfolio/img-9.jpg"
+                  alt="Camila Garcia"
+                  width="360"
+                  height="300" />
+                <p class="img-description">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
+              <div class="project">
+                <h2 class="title-two">Fresh Coffee</h2>
+                <p class="text">Web Site</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="content">
+        <a class="logo"
+          href="./index.html">
+          Web<span class="decor decor-light">Studio</span>
+        </a>
+        <p class="text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
+      <div class="social">
+        <p class="subtitle">Social media</p>
+        <ul class="list social-list">
+          <li class="item">
+            <a href=""
+              class="link">
+              <svg class="icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <svg class="icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <svg class="icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a href=""
+              class="link">
+              <svg class="icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="subscribe">
+        <p class="subtitle">Subscribe</p>
+        <form class="form">
+          <label class="footer-label">
+            <input class="input input-light"
+              name="user-email"
+              type="email"
+              placeholder="E-mail" />
+          </label>
+          <button class="button button-small"
+            type="submit">
+            Subscribe
+            <svg class="icon"
+              width="24"
+              height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <script defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer
+    src="js/mobile-menu.js"></script>
+</body>
+
+</html>
