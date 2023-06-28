@@ -537,9 +537,10 @@ textarea {
 }
 
 .customers .list {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
- 
+
 }
 
 .customers .list .item {
@@ -776,6 +777,16 @@ textarea {
   .menu-block .social-list {
     justify-content: space-between;
     gap: 0;
+  }
+
+  .list {
+    display: flex;
+    gap: 10px;
+  }
+
+  .customers .list .item {
+    height: 88px;
+    width: 140px;
   }
 
   .menu-block .address .item:first-child {
