@@ -181,7 +181,6 @@ textarea {
 
 .list {
   display: flex;
-  gap: 10px;
 }
 
 .form {
@@ -808,7 +807,8 @@ textarea {
   }
 
   .customers-list {
-    margin-left: 16px;
+    gap: 72px 16px;
+    width: calc(100% - 16px ) / 2;
   }
 
   .customers .list .item {
